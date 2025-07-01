@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-color: #eae2db;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Yatay taşmayı engelle */
+}
+
+h1 {
+    color: #ff9900;
+    margin-top: 20px;
+}
+
+#egg {
+    width: 250px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 30px;
+}
+
+#egg:active {
+    transform: scale(0.95);
+}
+
+#message {
+    font-size: 2rem;
+    color: #ff6600;
+    display: none;
+    position: relative;
+    margin-top: 250px;  /* Yazıyı daha aşağa kaydırıyor */
+}
+
+#photos {
+    position: fixed; /* Ekrana sabit */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80vh; /* Yazıya çarpmasın */
+    pointer-events: none; /* Fotoğraflar tıklanabilir olmasın */
+    overflow: visible;
+    z-index: 10;
+}
+
+.photo {
+    position: absolute;
+    width: 120px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 1s ease;
+    user-select: none;
+    pointer-events: none;
+}
