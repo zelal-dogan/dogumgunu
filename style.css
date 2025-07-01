@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #eae2db;
+    background-color: #fc599d;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    color: #ff9900;
+    color: #220341;
     margin-top: 20px;
 }
 
@@ -25,7 +25,7 @@ h1 {
 
 #message {
     font-size: 2rem;
-    color: #ff6600;
+    color: #220341;
     display: none;
     position: relative;
     margin-top: 250px;  /* Yazıyı daha aşağa kaydırıyor */
